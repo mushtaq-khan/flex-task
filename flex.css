@@ -1,0 +1,48 @@
+.sec .container{
+    display:flex;
+    flex-direction: column;
+    flex-direction: row;
+    gap: 2rem;
+}
+.sec .box{
+    width: 200px;
+    height: 200px;
+    flex: 1;
+    margin: 10px;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+.box1{
+    text-align: center;  
+    background: radial-gradient( blue, purple, yellow);
+    padding: 84px;
+}
+.box2{
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(148, 148, 206), rgba(12, 105, 12, 0.678), rgb(163, 15, 64));
+}
+.box2{
+    text-align: center;
+    background: linear-gradient(to right, rgb(34, 3, 75), rgba(230, 191, 17, 0.678), rgb(78, 4, 4));
+}
+.box3{
+    text-align: center;
+    background: linear-gradient(red, orange,pink);
+}
+.boxes{
+    text-align: center;
+    background: rebeccapurple;
+}
+.box-a{
+    text-align: center;
+    background: rgb(87, 105, 87);
+}
+.box-b{
+    text-align: center;
+    background: linear-gradient(to right, rgb(3, 75, 51), rgba(190, 170, 77, 0.678), rgb(151, 80, 80));
+}
+
+
